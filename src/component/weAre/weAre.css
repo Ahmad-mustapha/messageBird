@@ -1,0 +1,36 @@
+.messageBird__weAre-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 100%;
+    cursor: pointer;
+}
+.messageBird__weAre-image img{
+    width: 75%;
+    border-radius: 5%;
+    transition: all .4s ease;
+    z-index: -100;
+}
+.messageBird__weAre-image:hover img{
+    opacity: .6;
+}
+.messageBird__weAre-image p{
+    margin-top: 1rem;
+    font-size: .94rem;
+    font-weight: 600;
+}
+@media screen and (max-width: 1026px) {
+    .messageBird__weAre-image p{
+        font-size: .87rem;
+        font: 800;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .messageBird__weAre-image p{
+        font-size: .78rem;
+        font-weight: 780;
+    }
+}

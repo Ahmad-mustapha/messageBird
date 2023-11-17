@@ -1,0 +1,6 @@
+:root {
+  --header-font-family: 'sans-serif';
+  --font-family: 'Manrope', sans-serif;
+  --text-color : #555;
+  --gradient-text: linear-gradient(to right, #05467E, #0A8CFC)
+}

@@ -1,0 +1,43 @@
+.messageBird__reviews-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.messageBird__reviews-heading h1{
+    font-family: serif;
+    font-weight: 900;
+    color: #0a8cfc;
+}
+.messageBird__reviews-heading_image{
+    background-color: #05467E;
+    position: relative;
+    padding: .1rem .5rem;
+    border-radius: 20px;
+    top: 2rem;
+}
+.messageBird__reviews-heading_image::after{
+    content: '';
+    position: absolute;
+    background-color: #05467E;
+    /* background: linear-gradient(135deg, blue 0%, blue, 50%, transparent 50%, transparent); */
+    background: linear-gradient(135deg, #05467E 50%, transparent 50%);
+
+    width: 1.7rem;
+    height: 2.2rem;
+    bottom: -1.8rem;
+    left: 2rem;
+}
+.messageBird__reviews-heading_image img{
+    width: 3.5rem;
+}
+.messageBird__reviews-review-container{
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 7rem 0 2rem 0;
+}

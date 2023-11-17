@@ -1,0 +1,181 @@
+.messageBird__navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    height: 6.2rem;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    z-index: 99;
+}
+.messageBird__navbar-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+.messageBird__navbar-logo img{
+    width: 10rem;
+}
+.messageBird__navbar-links{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style-type: none;
+}
+.messageBird__navbar-links a{
+    text-decoration: none;
+    color: #0a8cfc;
+    font-size: .93rem;
+    font-weight: 550;
+}
+.messageBird__navbar-links li a{
+    position: relative;
+}
+.messageBird__navbar-links li a::before{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #ccc;
+    position: absolute;
+    top: 1.4rem;
+    transition: all .2s ease-in;
+}
+.messageBird__navbar-links li a:hover::before{
+    width: 100%;
+    transform: right;
+}
+.messageBird__navbar-signIn, .messageBird__navbar-menu__signIn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: .9rem;
+}
+.messageBird__navbar-signIn a:first-child, .messageBird__navbar-menu__signIn a:first-child{
+    color: #fff;
+    /* background: var(--gradient-text); */
+    background-color: #0a8cfc;
+    padding: .5rem .7rem;
+    border: none;
+    border-radius: 3px;
+}
+.messageBird__navbar-signIn a:last-child, .messageBird__navbar-menu__signIn a:last-child{
+    padding: .5rem;
+    border: none;
+    border-radius: 3px;
+    color: var(--text-color);
+    border: 1px solid #0a8cfc;
+    font-size: .9rem;
+    font-weight: 550;
+}
+.scale-up-center{
+    /* -webkit-animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; */
+    animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@keyframes scale-up-center {
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.messageBird__navbar-menu{
+    display: none;
+}
+
+@media screen and (max-width: 1026px) {
+    .messageBird__navbar-links{
+        display: none;
+    }
+    .messageBird__navbar-logo img{
+        width: 9.4rem;
+    }
+    .messageBird__navbar-menu{
+        display: flex;
+    }
+    .messageBird__navbar-menu__container{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #0a8cfc;
+        top: 6.1rem;
+        bottom: 0;
+        width: 40%;
+        left: 60%;
+        min-height: 89.5vh;
+        text-align: center;
+        border-radius: 3px 0 0 3px;
+        z-index: 99;
+        /* backdrop-filter: blur(10px); */
+    }
+    .messageBird__navbar-menu__container-links li{
+        margin-bottom: 2.9rem;
+    }
+    .messageBird__navbar-menu__container-links li a{
+        color: white;
+        position: relative;
+    }
+    .messageBird__navbar-menu__container-links li a::before{
+        content: '';
+        width: 0;
+        height: 2px;
+        background-color: white;
+        position: absolute;
+        top: 1.4rem;
+        transition: all .2s ease-in;
+    }
+    .messageBird__navbar-menu__container-links li a:hover::before{
+        width: 100%;
+        transform: right;
+    }
+    .messageBird__navbar-menu__signIn{
+        flex-direction: column;
+        display: none;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    .messageBird__navbar-signIn{
+        display: none;
+    }
+    .messageBird__navbar-menu__signIn{
+        display: flex;
+    }
+    .messageBird__navbar-menu__signIn a:first-child{
+        border: 1px solid #fff;
+        border-radius: 4px;
+        color: #fff;
+        font-weight: normal;
+    }
+    .messageBird__navbar-menu__signIn a:last-child{
+        border: 1px solid #fff;
+        border-radius: 4px;
+        color: #fff;
+        font-weight: normal;
+    }
+    .messageBird__navbar-menu__container{
+        width: 45%;
+        left: 55%;
+    }
+    .messageBird__navbar-logo img{
+        width: 8.8rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .messageBird__navbar-menu__container{
+        width: 50%;
+        left: 50%;
+    }
+    .messageBird__navbar-logo img{
+        width: 8rem;
+    }
+    .messageBird__navbar{
+        padding: 1.5rem 2.5rem;
+    }
+}

@@ -1,0 +1,42 @@
+.messageBird__DiveIn{
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 20px;
+}
+.messageBird__DiveIn p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9rem;
+    width: 70%;
+    max-width: fit-content;
+    margin: auto;
+}
+.messageBird__DiveIn button{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+    background-color: #0a8cfc;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    font-size: .9rem;
+    cursor: pointer;
+    transition: all .4s ease-out;
+}
+.messageBird__DiveIn button:hover{
+    color: #0a8cfc;
+    background-color: white;
+    transform: translate(0, 5px);
+}
+
+@media screen and (max-width: 1026px) {
+    .messageBird__DiveIn p{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .messageBird__DiveIn p{
+        width: 100%;
+    }
+}

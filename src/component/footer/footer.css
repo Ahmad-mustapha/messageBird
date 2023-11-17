@@ -1,0 +1,54 @@
+.messageBird__footer{
+    background-color: #05467E;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 5rem 4rem 5rem;
+}
+.messageBird__footer-logo img{
+    width: 16.4rem;
+}
+.messageBird__footer-links{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 9rem;
+    flex-wrap: wrap;
+}
+.messageBird__footer-links_column{
+    margin-bottom: 1.5rem;
+}
+.messageBird__footer-links_column p{
+    color: #0a8cfc;
+    font-family: serif;
+    font-size: 1.45rem;
+}
+.messageBird__footer-links_column ul{
+    line-height: 28px;
+}
+.messageBird__footer-links_column ul li a{
+    color: white;
+    font-size: .9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.messageBird__footer-links_column ul li a:hover{
+    transform: translate(0, 3px);
+}
+@media screen and (max-width: 1025px) {
+    .messageBird__footer-links{
+        gap: 7rem;
+    }
+    .messageBird__footer-logo img{
+        width: 13rem;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    .messageBird__footer-links{
+        gap: 3rem;
+    }
+    .messageBird__footer-logo img{
+        width: 10rem;
+    }
+}

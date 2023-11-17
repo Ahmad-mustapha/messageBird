@@ -1,0 +1,25 @@
+.messageBird__weWork-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2.5rem;
+    border-radius: 7px;
+    /* width: 22rem; */
+    min-width: 17rem;
+    height: 7rem;
+}
+.messageBird__wework-container_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.messageBird__wework-container_image img{
+    width: 1.7rem;
+}
+.messageBird__weWork-container p{
+    font-size: .87rem;
+    text-align: center;
+    margin-top: 1rem;
+}

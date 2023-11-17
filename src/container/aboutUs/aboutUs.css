@@ -1,0 +1,11 @@
+.messageBird__aboutUs-heading h1{
+    color: #0a8cfc;
+    margin-bottom: 1rem;
+}
+.messageBird__aboutUs-contents p{
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+    line-height: 1.1rem;
+    text-transform: capitalize;
+}

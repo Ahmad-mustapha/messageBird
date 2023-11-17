@@ -1,0 +1,61 @@
+.messageBird__howWeWork{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.messageBird__howWeWork-container{
+    background-color: rgba(128, 128, 128, .2);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: .5rem;
+    width: 100%;
+}
+.messageBird__howWeWork-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.messageBird__howWeWork-heading h1{
+    margin-bottom: 1rem;
+    font-family: serif;
+    color: #0a8cfc;
+}
+.messageBird__howWeWork-heading p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .93rem;
+    text-align: center;
+    width: 60%;
+    text-transform: capitalize;
+}
+.messageBird__howWeWork_weWork-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-top: 2rem;
+}
+
+.messageBird__howWeWork-diveIn__container{
+    margin-top: 1.5rem;
+}
+@media screen and (max-width: 1026px) {
+    .messageBird__howWeWork_weWork-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .messageBird__howWeWork-heading p{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .messageBird__howWeWork_weWork-container{
+        grid-template-columns: repeat(1, 2fr);
+    }
+    .messageBird__howWeWork-heading p{
+        width: 100%;
+    }
+}
