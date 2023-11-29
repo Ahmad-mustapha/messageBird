@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { AboutUs, HowWeWork, Reviews, WhereWeAre} from './container/import'
-import { Footer, Header, NavBar, Review, WeAre } from './component/import'
+import { Footer, Header, NavBar } from './component/import'
 
 function App() {
   const [count, setCount] = useState(0)
