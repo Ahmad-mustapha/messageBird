@@ -1,6 +1,6 @@
 import React from 'react'
 import './weAre.css'
-function weAre({weAreImage, countryName}) {
+function WeAre({weAreImage, countryName}) {
   return (
     <div className='messageBird__weAre-container'>
       <div className="messageBird__weAre-image">
@@ -11,4 +11,4 @@ function weAre({weAreImage, countryName}) {
   )
 }
 
-export default weAre
+export default WeAre
