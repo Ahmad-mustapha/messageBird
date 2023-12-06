@@ -1,6 +1,7 @@
 import React from 'react'
 import './whereWeAre.css'
-import { WeAre } from '../../component/import'
+// import { WeAre } from '../../component/import'
+import weAre from '../../component/weAre/WeAre'
 import { london, sanFrasisco, bogota, singapore, shanghai, dublin } from '../../component/weAre/import'
 function WhereWeAre() {
   return (
