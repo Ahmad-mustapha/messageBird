@@ -1,17 +1,15 @@
-// import headPhone from '../../assets/Group.png'
-// import alerm from '../../assets/Group (1).png'
-// import spanner from '../../assets/Group (2).png'
-// import box from '../../assets/Group (4).png'
-// import wheel from '../../assets/Group (5).png'
-// import chat from '../../assets/Group (3).png'
+import singapore from '../../assets/Rectangle 16.png'
+import london from '../../assets/Rectangle 16 (1).png'
+import shanghai from '../../assets/Rectangle 15.png'
+import dublin from '../../assets/Rectangle 15 (1).png'
+import sanFrasisco from '../../assets/Rectangle 14.png'
+import bogota from '../../assets/Rectangle 14 (1).png'
 
-
-
-// export{
-//     headPhone,
-//     alerm,
-//     spanner,
-//     box,
-//     wheel,
-//     chat,
-// }
+export{
+    singapore,
+    london,
+    shanghai,
+    dublin,
+    sanFrasisco,
+    bogota,
+}

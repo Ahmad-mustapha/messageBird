@@ -1,6 +1,7 @@
 import React from 'react'
 import './howWeWork.css'
-import { headPhone, alerm, chat, spanner, wheel, box } from '../whereWeAre/import'
+// import { headPhone, alerm, chat, spanner, wheel, box } from '../whereWeAre/import'
+import { headPhone, alerm, chat, spanner, wheel, box } from './import'
 import { WeWork } from '../../component/import'
 import { DiveIn } from '../import'
 function HowWeWork() {
