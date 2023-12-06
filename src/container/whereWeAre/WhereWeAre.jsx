@@ -1,8 +1,7 @@
 import React from 'react'
 import './whereWeAre.css'
-// import { WeAre } from '../../component/import'
-import {WeAre} from '../../component/weAre/WeAre'
-import { london, sanFrasisco, bogota, singapore, shanghai, dublin } from '../../component/weAre/import'
+import WeAre from '../../component/weAre/WeAre'
+import { london, sanFrasisco, bogota, singapore, shanghai, dublin } from './import'
 function WhereWeAre() {
   return (
     <div className='messageBird__whereWeAre'>
