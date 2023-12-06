@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { AboutUs, HowWeWork, Reviews, WhereWeAre} from './container/import'
+import { AboutUs, HowWeWork, Reviews} from './container/import'
 import { Footer, Header, NavBar } from './component/import'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Header />
         <AboutUs />
         <HowWeWork />
-        <WhereWeAre />
+        {/* <WhereWeAre /> */}
         <Reviews />
         <Footer />
       </div>
